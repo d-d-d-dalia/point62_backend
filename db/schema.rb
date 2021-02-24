@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2021_02_05_193152) do
     t.string "player_name"
     t.integer "guess"
     t.float "kilometers"
+    t.boolean "success"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

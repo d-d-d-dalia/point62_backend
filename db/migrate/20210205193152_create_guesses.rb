@@ -4,6 +4,7 @@ class CreateGuesses < ActiveRecord::Migration[6.0]
       t.string :player_name
       t.integer :guess
       t.float :kilometers
+      t.boolean :success
       t.timestamps
     end
   end
