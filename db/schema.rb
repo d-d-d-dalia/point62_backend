@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2021_02_05_193152) do
 
   create_table "guesses", force: :cascade do |t|
     t.string "player_name"
-    t.integer "guess"
+    t.integer "value"
     t.float "kilometers"
     t.boolean "success"
     t.datetime "created_at", precision: 6, null: false
