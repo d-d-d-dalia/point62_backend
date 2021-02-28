@@ -3,3 +3,4 @@
   json.value guess.value
   json.kilometers guess.kilometers
   json.success guess.success
+  json.harder guess.harder

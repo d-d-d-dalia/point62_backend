@@ -5,6 +5,7 @@ class CreateGuesses < ActiveRecord::Migration[6.0]
       t.float :value
       t.float :kilometers
       t.boolean :success
+      t.boolean :harder
       t.timestamps
     end
   end
